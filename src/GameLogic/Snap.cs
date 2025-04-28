@@ -113,7 +113,7 @@ namespace CardGames.GameLogic
 		/// </summary>
 		public void Update()
 		{
-			//TODO: implement update to automatically slip cards!
+			
 			if (_gameTimer.Ticks > _flipTime)
 {
 _gameTimer.Reset ();
